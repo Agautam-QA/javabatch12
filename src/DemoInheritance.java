@@ -23,5 +23,11 @@ class B extends A{
 	int d=50;
 	void printNumber() {
 		
+		class C extends A{
+			int e=60;
+			void print(){
+			}
+		}
+		
 	}
 }
