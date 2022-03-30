@@ -28,6 +28,9 @@ class Dd extends Aa
 	{
 		System.out.println("D is sub class of A");
 	}
+	
+		
+	}
 
 	public class HierachicalInheritanceJava {
 public static void main(String[] args) {
@@ -35,6 +38,7 @@ public static void main(String[] args) {
 	Bb obj1=new Bb();
 	Cc obj2=new Cc();
 	Dd obj3=new Dd();
+
 	// now call supper class A method
 	obj1.show_A();
 	obj1.show_B();
@@ -47,8 +51,10 @@ public static void main(String[] args) {
 	
 	
 	
+	
+	
 
 	}
 
 }
-}
+

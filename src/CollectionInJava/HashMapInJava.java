@@ -20,8 +20,17 @@ public class HashMapInJava {
 		System.out.println(map.get(1001));//Tom
 		
 		//contains
-		System.out.println(map.containsValue(1010));
-
+		System.out.println(map.containsValue(1010));//false coz there is not 1010 key and value
+         
+		/*for(Map.Entry entry: map.entrySet()) {
+			System.out.println(("key= "+entry.getkey()));
+			System.out.println(("key= "+entry.getValue()));
+			}*/
+		
+		//for(object id:map.KeySet()) {
+			//System.out.println("Id= "+id+ value);
+			
+		}
 	}
 
 }
